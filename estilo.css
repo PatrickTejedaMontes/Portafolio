@@ -160,6 +160,9 @@ display: flex;
     color: #1CB698;
     width: 130px;
 }
+.sobremi .solo{
+    text-decoration: none;
+}
 .sobremi .fila .col ul li span{
     background-color: #1CB698;
     padding: 3px;
@@ -502,6 +505,9 @@ display: flex;
     
 
 }
+.contacto .col iframe{
+    align-items: center;
+}
 .contacto .col input, .contacto .col textarea{
     display: block;
     width: 100%;
@@ -545,18 +551,20 @@ display: flex;
 }
 .contacto .col .info{
     position: absolute;
-    top: 40%;
+    top: 85%;
     background-color: #252A2E;
     padding: 20px;
-    max-width: 622px;
+    max-width: 700px;
+    width: 400px;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-40%,-50%);
+    align-items: center;
 }
 .contacto .col .info ul{
     list-style: none;
 }
 .contacto .col .info ul li{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .contacto .col .info ul li i{
     color: #1CB698;
